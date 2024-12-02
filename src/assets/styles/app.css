@@ -1,0 +1,65 @@
+/* 全局样式 */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+  }
+  
+  /* 顶部导航样式 */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* logo 和系统名称 */
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .system-name {
+    color: #fff;
+    font-size: 1.5em;
+  }
+  
+  /* 导航菜单样式 */
+  .navigation ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation ul li {
+    margin-left: 20px;
+  }
+  
+  .navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .navigation ul li a:hover {
+    background-color: #495057;
+  }
+  
+  /* 主内容样式 */
+  .content {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
